@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Weather API</title>
+
+<!--    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">-->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+<link rel="stylesheet" href="style.css">
+
+<link href="https://fonts.googleapis.com/css?family=Montserrat:400i,500,600,700" rel="stylesheet">
+
+</head>
+
+<body>
+   <div class="contain row justify-content-center">
+    <div><h2 class="name">WHAT<br>THE<br>FORECAST</h2>
+    <img class="image" src="images/Weather_forecast-16-512.png">
+    </div>
+
+        <div class="row" >
+            <div class="row form-group" id="cityDiv">
+                <input type="text" name="city" id="city" class="form-control" placeholder="Enter city name" style="margin-top:10px;">
+                
+                <button id="submitCity" class="btn btn-lg">SEARCH CITY</button>
+            </div>
+            
+        </div>
+    
+    
+    
+    
+    <div id="showWeather">aaaa</div>
+    
+    <img class="refresh" id="refresh" src="images/th.png">
+    
+    </div>
+    
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+
+<!--    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>-->
+   
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+   
+   <script src="weather.js"></script>
+    
+</body>
+
+</html>
